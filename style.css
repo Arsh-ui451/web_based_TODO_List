@@ -1,0 +1,113 @@
+body {
+    background: url('https://source.unsplash.com/1600x900/?white');
+
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+
+    background-color: black;
+}
+
+header img {
+    position: absolute;
+    right: 20px;
+    width: 330px;
+    height: 127px;
+    top: 60px;
+    mask-repeat: no-repeat;
+}
+
+ul {
+    margin: 0px;
+}
+
+header ul li {
+    display: inline-block;
+
+    padding: 7px;
+    text-decoration: none;
+}
+
+header ul li a {
+    color: white;
+    font-size: 20px;
+    margin: 35px;
+    text-decoration: none;
+}
+
+.text {
+    @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+    font-family: 'Allison', cursive;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    margin: 12px 15px;
+
+}
+
+
+.search {
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+    width: 25%;
+}
+
+.search input {
+    padding: 3px;
+    width: 70%;
+
+}
+
+.btn {
+    padding: 2px;
+    width: 74px;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    height: 23vw;
+    top: 4vw;
+    margin: auto;
+    width: 37vw;
+
+}
+
+.form {
+    position: relative;
+    margin: 18px;
+    width: 21vw;
+}
+
+.text1 {
+    @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+    font-family: 'Allison', cursive;
+    font-size: 25px
+}
+
+.text2 {
+    @import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+    font-family: 'Allison', cursive;
+    font-size: 25px
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    border: 1px solid #221e1e;
+    text-align: left;
+    padding: 8px;
+}
